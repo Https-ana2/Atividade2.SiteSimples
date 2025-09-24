@@ -1,0 +1,122 @@
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+
+{
+    font-family: "Georgia", "Palatino", "serif";
+    line-height: 1.6;
+    background: white;
+    color: #752626;
+}
+
+header
+
+{
+    background-color: #B30000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo img
+
+{
+    height: 60px;
+    width: auto;
+}
+
+nav ul
+
+{
+   list-style: none; 
+   display: flex;
+   gap: 16px;
+}
+
+nav a 
+
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3;
+}
+
+nav a:hover,
+nav a.ativo
+
+{
+    text-decoration: underline;
+}
+
+.info
+
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 15px;
+}
+
+main
+
+{
+    padding: 96px 32px 32px;
+}
+
+.apresentacao
+
+{
+    text-align: center;
+    padding: 32px;
+    background: #ffe5e5;
+    border-radius: 10px;
+}
+
+.contato form
+
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    margin: 32px auto;
+}
+
+.contato input,
+.contato textarea
+
+{
+    padding: 11.2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato button
+
+{
+    background-color: #B30000;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contato button:hover
+
+{
+    background-color: #800000;
+}
