@@ -149,3 +149,42 @@ h6
     justify-content: center;
     font-size: 16px;
 }
+
+.h2
+
+{
+    color: white;
+    text-align: start;
+    font-family: "palatino";
+    font-size: 40px;
+}
+
+.imagens
+
+{
+    background-color: #f0a8a8;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px;
+}
+
+.videos
+
+{
+    background-color: #c77b7b;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px;
+}
+
+.mapa
+
+{
+    background-color: #b36e6e;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px;
+}
